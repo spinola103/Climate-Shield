@@ -365,10 +365,7 @@ function clearResults() {
 
     document.getElementById('message-box').classList.add('hidden');
 }
-        showMessage('Backend server is not running or failed to respond.', 'is-error');
-    }
-}
-
+       
 // Handle alert subscription simulation
 document.addEventListener('DOMContentLoaded', () => {
     const subForm = document.getElementById('subscribe-form');
